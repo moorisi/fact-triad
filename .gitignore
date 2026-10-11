@@ -1,3 +1,6 @@
 __pycache__/
 .venv/
 node_modules/
+.proof-journal/
+.pytest_cache/
+artifacts/
