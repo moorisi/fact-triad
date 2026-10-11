@@ -1,0 +1,180 @@
+{
+  "hash": "0x74b736c74aa22f17a30a9a1cfe6b858db9e355095dd0402343d3494a872ddcac",
+  "from_address": "0x7a413BB4AB62E31d62d4cD9efC8C8a8Dae37FB42",
+  "to_address": "0xba3F1E51E5f152be172C827f148B5fD13a93b0cF",
+  "data": {
+    "calldata": {
+      "readable": "{\"args\":[[\"https://raw.githubusercontent.com/moorisi/fact-triad/2806f760ce4cf189c83f4b8b6e6a69a0c744c88d/sources/alpha.json\",\"https://raw.githubusercontent.com/moorisi/fact-triad/2806f760ce4cf189c83f4b8b6e6a69a0c744c88d/sources/beta.json\",\"https://raw.githubusercontent.com/moorisi/fact-triad/2806f760ce4cf189c83f4b8b6e6a69a0c744c88d/sources/gamma.json\",],[\"0b5226d15ff3ec4397ef80bb32932302e002e77ebcbc60bdb604a15429066096\",\"34a6250cb302c3e9e033c6b1ee02b9856499405fbffa26a5da668d59e44437b7\",\"f06e140363ae47bc76702a1da832da4c310e840075fae236ec12d6b83d51c146\",],]\"method\":\"assess\"}"
+    }
+  },
+  "status": 7,
+  "result": 6,
+  "consensus_data": {
+    "votes": {
+      "0x14402D49f317CE1a2F35BAE01b1804A2A9703dCb": "agree",
+      "0x4EDbE1FC9EAeC7b0EBA849b0C76AE73Eb0ad5C47": "idle",
+      "0x772ffCd1dF6Cc566eC4b8d3f4F4f8eBbb6B36C84": "agree",
+      "0xBBb165E4c9d73a1493D363280f7067Cd07891dBE": "disagree",
+      "0xec2Fb79cd12255Eb34886CEd7332f27B98DEe658": "agree"
+    },
+    "leader_receipt": [
+      {
+        "execution_result": "SUCCESS",
+        "genvm_result": {
+          "stderr": "/py/libs/genlayer/gl/_internal/storage.py:21: UserWarning: Detected pickling storage class. Reading storage in nondet mode is not supported\n  warnings.warn(\n",
+          "stdout": "",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        },
+        "mode": "leader",
+        "vote": null,
+        "calldata": {
+          "readable": "{\"args\":[[\"https://raw.githubusercontent.com/moorisi/fact-triad/2806f760ce4cf189c83f4b8b6e6a69a0c744c88d/sources/alpha.json\",\"https://raw.githubusercontent.com/moorisi/fact-triad/2806f760ce4cf189c83f4b8b6e6a69a0c744c88d/sources/beta.json\",\"https://raw.githubusercontent.com/moorisi/fact-triad/2806f760ce4cf189c83f4b8b6e6a69a0c744c88d/sources/gamma.json\",],[\"0b5226d15ff3ec4397ef80bb32932302e002e77ebcbc60bdb604a15429066096\",\"34a6250cb302c3e9e033c6b1ee02b9856499405fbffa26a5da668d59e44437b7\",\"f06e140363ae47bc76702a1da832da4c310e840075fae236ec12d6b83d51c146\",],]\"method\":\"assess\"}"
+        },
+        "eq_outputs": {
+          "0": {
+            "status": "return",
+            "payload": {
+              "readable": "[{\"analysis\":{\"claim\":\"SUPPORTED\"\"polarity\":\"ACTIVE\"\"quote\":\"The service requires signed requests and rejects unsigned requests.\"}\"hash\":\"0b5226d15ff3ec4397ef80bb32932302e002e77ebcbc60bdb604a15429066096\"\"source\":{\"id\":\"SRC-A\"\"text\":\"The service requires signed requests and rejects unsigned requests. This fixture documents the proposition for consensus testing.\"}\"url\":\"https://raw.githubusercontent.com/moorisi/fact-triad/2806f760ce4cf189c83f4b8b6e6a69a0c744c88d/sources/alpha.json\"},{\"analysis\":{\"claim\":\"SUPPORTED\"\"polarity\":\"ACTIVE\"\"quote\":\"The service requires signed requests and rejects unsigned requests.\"}\"hash\":\"34a6250cb302c3e9e033c6b1ee02b9856499405fbffa26a5da668d59e44437b7\"\"source\":{\"id\":\"SRC-B\"\"text\":\"The service requires signed requests and rejects unsigned requests. This fixture documents the proposition for consensus testing.\"}\"url\":\"https://raw.githubusercontent.com/moorisi/fact-triad/2806f760ce4cf189c83f4b8b6e6a69a0c744c88d/sources/beta.json\"},{\"analysis\":{\"claim\":\"SUPPORTED\"\"polarity\":\"ACTIVE\"\"quote\":\"The service requires signed requests and rejects unsigned requests.\"}\"hash\":\"f06e140363ae47bc76702a1da832da4c310e840075fae236ec12d6b83d51c146\"\"source\":{\"id\":\"SRC-C\"\"text\":\"The service requires signed requests and rejects unsigned requests. This fixture documents the proposition for consensus testing.\"}\"url\":\"https://raw.githubusercontent.com/moorisi/fact-triad/2806f760ce4cf189c83f4b8b6e6a69a0c744c88d/sources/gamma.json\"},]"
+            }
+          }
+        },
+        "result": {
+          "status": "return",
+          "payload": {
+            "readable": "null"
+          }
+        }
+      },
+      {
+        "execution_result": "ERROR",
+        "genvm_result": {
+          "stderr": "Validator execution cancelled after quorum",
+          "stdout": "",
+          "raw_error": {
+            "fatal": false,
+            "causes": [
+              "VALIDATOR_QUORUM_REACHED"
+            ]
+          },
+          "error_code": "CONSENSUS_VALIDATOR_QUORUM_REACHED"
+        },
+        "mode": "validator",
+        "vote": "idle",
+        "result": {
+          "status": "contract_error",
+          "payload": "idle"
+        }
+      }
+    ],
+    "validators": [
+      {
+        "execution_result": "SUCCESS",
+        "genvm_result": {
+          "stderr": "/py/libs/genlayer/gl/_internal/storage.py:21: UserWarning: Detected pickling storage class. Reading storage in nondet mode is not supported\n  warnings.warn(\n",
+          "stdout": "",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        },
+        "mode": "validator",
+        "vote": "disagree"
+      },
+      {
+        "execution_result": "SUCCESS",
+        "genvm_result": {
+          "stderr": "/py/libs/genlayer/gl/_internal/storage.py:21: UserWarning: Detected pickling storage class. Reading storage in nondet mode is not supported\n  warnings.warn(\n",
+          "stdout": "",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        },
+        "mode": "validator",
+        "vote": "agree"
+      },
+      {
+        "execution_result": "SUCCESS",
+        "genvm_result": {
+          "stderr": "/py/libs/genlayer/gl/_internal/storage.py:21: UserWarning: Detected pickling storage class. Reading storage in nondet mode is not supported\n  warnings.warn(\n",
+          "stdout": "",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        },
+        "mode": "validator",
+        "vote": "agree"
+      },
+      {
+        "execution_result": "SUCCESS",
+        "genvm_result": {
+          "stderr": "/py/libs/genlayer/gl/_internal/storage.py:21: UserWarning: Detected pickling storage class. Reading storage in nondet mode is not supported\n  warnings.warn(\n",
+          "stdout": "",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        },
+        "mode": "validator",
+        "vote": "agree"
+      }
+    ]
+  },
+  "gaslimit": 147,
+  "nonce": 147,
+  "created_at": "2026-10-11T20:44:37.208240+00:00",
+  "leader_only": false,
+  "execution_mode": "NORMAL",
+  "origin_address": "0x7a413BB4AB62E31d62d4cD9efC8C8a8Dae37FB42",
+  "triggered_on": null,
+  "appeal_validators_timeout": false,
+  "sim_config": {
+    "signed_rollup_transaction": "0xf9036a8193808307a12094b7278a61aa25c888815afc32ad3cc52ff24fe57580b9030427241a990000000000000000000000007a413bb4ab62e31d62d4cd9efc8c8a8dae37fb42000000000000000000000000ba3f1e51e5f152be172c827f148b5fd13a93b0cf0000000000000000000000000000000000000000000000000000000000000005000000000000000000000000000000000000000000000000000000000000000300000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000239f90236b90232160461726773151d840768747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f6d6f6f726973692f666163742d74726961642f323830366637363063653463663138396338336634623862366536613639613063373434633838642f736f75726365732f616c7068612e6a736f6efc0668747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f6d6f6f726973692f666163742d74726961642f323830366637363063653463663138396338336634623862366536613639613063373434633838642f736f75726365732f626574612e6a736f6e840768747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f6d6f6f726973692f666163742d74726961642f323830366637363063653463663138396338336634623862366536613639613063373434633838642f736f75726365732f67616d6d612e6a736f6e1d840430623532323664313566663365633433393765663830626233323933323330326530303265373765626362633630626462363034613135343239303636303936840433346136323530636233303263336539653033336336623165653032623938353634393934303566626666613236613564613636386435396534343433376237840466303665313430333633616534376263373637303261316461383332646134633331306538343030373566616532333665633132643662383364353163313436066d6574686f643461737365737300000000000000008301e481a0b44f044e29cdce7a506e4f34f33273da5e890c350b5cc796380459688284abc8a00d4d9155f2bad55c008f231631a9f156cd0cc8cdbeadd8073b94b7eeb3014ef7"
+  },
+  "value_credited": false,
+  "sender": "0x7a413BB4AB62E31d62d4cD9efC8C8a8Dae37FB42",
+  "recipient": "0xba3F1E51E5f152be172C827f148B5fD13a93b0cF",
+  "tx_id": "0x74b736c74aa22f17a30a9a1cfe6b858db9e355095dd0402343d3494a872ddcac",
+  "activator": "0x3D83ab507785b95ca5C208bEc80CCe3D5ca98100",
+  "last_leader": "0x4EDbE1FC9EAeC7b0EBA849b0C76AE73Eb0ad5C47",
+  "result_name": "MAJORITY_AGREE",
+  "num_of_rounds": "4",
+  "last_round": {
+    "round": "3",
+    "leader_index": "0",
+    "votes_committed": "5",
+    "votes_revealed": "5",
+    "appeal_bond": "0",
+    "rotations_left": "0",
+    "result": 6,
+    "round_validators": [
+      "0x4EDbE1FC9EAeC7b0EBA849b0C76AE73Eb0ad5C47",
+      "0xBBb165E4c9d73a1493D363280f7067Cd07891dBE",
+      "0xec2Fb79cd12255Eb34886CEd7332f27B98DEe658",
+      "0x772ffCd1dF6Cc566eC4b8d3f4F4f8eBbb6B36C84",
+      "0x14402D49f317CE1a2F35BAE01b1804A2A9703dCb"
+    ],
+    "validator_votes_hash": [
+      "0x74c7fa2f9d12236adeaa8b880f82eadf227baf4b16af2d075df5c51ac50566ce",
+      "0x11c38ecb909a5f0417cdf3d3a2c453ac713d2f626e84fe13ef89dbdf9a3f1018",
+      "0xc0279c42c45fa48736f396306abf297e2f285f8ef50a961671e813760f4f5f59",
+      "0xc491963a1ce117eefe56fb94fec63a586207270bd60f2bbd161ca06a8c5cd7b6",
+      "0x97cbcaf4d6c4330620ffeb7fe40b198ab41d3c27e420192a20a5ac2c18f0baf7"
+    ],
+    "validator_votes": [
+      5,
+      2,
+      1,
+      1,
+      1
+    ],
+    "validator_votes_name": [
+      "IDLE",
+      "DISAGREE",
+      "AGREE",
+      "AGREE",
+      "AGREE"
+    ]
+  },
+  "type": 2,
+  "status_name": "FINALIZED"
+}

@@ -1,0 +1,748 @@
+{
+  "hash": "0xb7b8736b15782deb5f8c3790de035de122b0425e5afae0e949711f60f2edfe17",
+  "from_address": "0x7a413BB4AB62E31d62d4cD9efC8C8a8Dae37FB42",
+  "to_address": "0xA1E9a56Fdada66e0a2d7d75A70E38474cBba7070",
+  "data": {
+    "calldata": "FgRhcmdzFR2sB2h0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9tb29yaXNpL2ZhY3QtdHJpYWQvYWUwOTBlZGUwNjJjM2IyZGFjNmQzYjUyZWZkM2Y3NDVhYmQyMzI0Ny9zb3VyY2VzL2NvbmZsaWN0LWEuanNvbqwHaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL21vb3Jpc2kvZmFjdC10cmlhZC9hZTA5MGVkZTA2MmMzYjJkYWM2ZDNiNTJlZmQzZjc0NWFiZDIzMjQ3L3NvdXJjZXMvY29uZmxpY3QtYi5qc29ujAdodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vbW9vcmlzaS9mYWN0LXRyaWFkL2FlMDkwZWRlMDYyYzNiMmRhYzZkM2I1MmVmZDNmNzQ1YWJkMjMyNDcvc291cmNlcy9yZWZ1dGUuanNvbh2EBDU0ZGNhZWIwNWM3OWFiZmEyYmYyNzQ2NDVhNzMwMGRmNTU5YmY0OGM2MmI0NzI0MWIzMjAyODA4NTQ4YWM2YjWEBDViYmQ1MGQ5OWNiNGIwZmQzY2M4YmM2NjVmYzY3MDNhYjg0MWNkMzYwOTJlZmUwNDY0NjhhN2VjZWY1ZDYxZTaEBDdlYTQ4OTMxYTRmMGNhOGI2ZWFlYzAxMjhjM2VmMzU3NWZiZjYwNzNkNTQ5NTBjZmMyNDQ1MGNiZGU5MzczMzQGbWV0aG9kNGFzc2Vzcw=="
+  },
+  "value": 0,
+  "type": 2,
+  "status": "FINALIZED",
+  "result": 6,
+  "consensus_data": {
+    "votes": {
+      "0x03D58A4DeF6fDFc032A56374785a5F571D07Bc11": "agree",
+      "0x3E5ee2507cc167C9925Bf10c67D7986581112024": "agree",
+      "0x4aba638Cf0Cf5249437AaD968fC69dde46ae6BAC": "agree",
+      "0xE6BD8050758CB15fC88387223E31Ae2708B119dC": "idle",
+      "0xec2Fb79cd12255Eb34886CEd7332f27B98DEe658": "idle"
+    },
+    "validators": [
+      {
+        "mode": "validator",
+        "vote": "agree",
+        "result": "AAA=",
+        "calldata": "FgRhcmdzFR2sB2h0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9tb29yaXNpL2ZhY3QtdHJpYWQvYWUwOTBlZGUwNjJjM2IyZGFjNmQzYjUyZWZkM2Y3NDVhYmQyMzI0Ny9zb3VyY2VzL2NvbmZsaWN0LWEuanNvbqwHaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL21vb3Jpc2kvZmFjdC10cmlhZC9hZTA5MGVkZTA2MmMzYjJkYWM2ZDNiNTJlZmQzZjc0NWFiZDIzMjQ3L3NvdXJjZXMvY29uZmxpY3QtYi5qc29ujAdodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vbW9vcmlzaS9mYWN0LXRyaWFkL2FlMDkwZWRlMDYyYzNiMmRhYzZkM2I1MmVmZDNmNzQ1YWJkMjMyNDcvc291cmNlcy9yZWZ1dGUuanNvbh2EBDU0ZGNhZWIwNWM3OWFiZmEyYmYyNzQ2NDVhNzMwMGRmNTU5YmY0OGM2MmI0NzI0MWIzMjAyODA4NTQ4YWM2YjWEBDViYmQ1MGQ5OWNiNGIwZmQzY2M4YmM2NjVmYzY3MDNhYjg0MWNkMzYwOTJlZmUwNDY0NjhhN2VjZWY1ZDYxZTaEBDdlYTQ4OTMxYTRmMGNhOGI2ZWFlYzAxMjhjM2VmMzU3NWZiZjYwNzNkNTQ5NTBjZmMyNDQ1MGNiZGU5MzczMzQGbWV0aG9kNGFzc2Vzcw==",
+        "gas_used": 0,
+        "genvm_result": {
+          "stderr": "/py/libs/genlayer/gl/_internal/storage.py:21: UserWarning: Detected pickling storage class. Reading storage in nondet mode is not supported\n  warnings.warn(\n",
+          "stdout": "",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        },
+        "contract_state": {},
+        "execution_stats": {
+          "llm": {
+            "tokens": {
+              "node-0x4aba638Cf0Cf5249437AaD968fC69dde46ae6BAC/policy:prd-gpt-oss": {
+                "input": 799,
+                "total": 1494,
+                "output": 695
+              }
+            }
+          },
+          "call_counts": {
+            "CONSUME_FUEL": 3,
+            "STORAGE_READ": 60,
+            "NOTIFY_FINISHED": 1,
+            "REMAINING_FUEL_AS_GEN": 3
+          },
+          "host_first_method": "STORAGE_READ",
+          "delete_genvm_status": 200,
+          "host_loop_entered_s": 1412.21228992,
+          "host_loop_enter_wait_ms": 9,
+          "host_time_per_method_ms": {
+            "CONSUME_FUEL": 0,
+            "STORAGE_READ": 19,
+            "REMAINING_FUEL_AS_GEN": 0
+          },
+          "host_total_handling_time_ms": 19,
+          "manager_run_attempt_success": {
+            "attempt": 0,
+            "duration_ms": 5
+          },
+          "host_first_method_received_s": 1412.212496355,
+          "host_accept_to_first_method_ms": 0
+        },
+        "nondet_disagree": null,
+        "processing_time": 8272,
+        "execution_result": "SUCCESS",
+        "contract_state_hash": "20712b59914ecc98cd4e779a9e9609df144801c084677446c9c1328dc32b19f5",
+        "pending_transactions": []
+      },
+      {
+        "mode": "validator",
+        "vote": "idle",
+        "result": "AmlkbGU=",
+        "calldata": "",
+        "gas_used": 0,
+        "genvm_result": {
+          "stderr": "Validator execution cancelled after quorum",
+          "stdout": "",
+          "raw_error": {
+            "fatal": false,
+            "causes": [
+              "VALIDATOR_QUORUM_REACHED"
+            ]
+          },
+          "error_code": "CONSENSUS_VALIDATOR_QUORUM_REACHED"
+        },
+        "contract_state": {},
+        "execution_stats": null,
+        "nondet_disagree": null,
+        "processing_time": 0,
+        "execution_result": "ERROR",
+        "contract_state_hash": null,
+        "pending_transactions": []
+      },
+      {
+        "mode": "validator",
+        "vote": "agree",
+        "result": "AAA=",
+        "calldata": "FgRhcmdzFR2sB2h0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9tb29yaXNpL2ZhY3QtdHJpYWQvYWUwOTBlZGUwNjJjM2IyZGFjNmQzYjUyZWZkM2Y3NDVhYmQyMzI0Ny9zb3VyY2VzL2NvbmZsaWN0LWEuanNvbqwHaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL21vb3Jpc2kvZmFjdC10cmlhZC9hZTA5MGVkZTA2MmMzYjJkYWM2ZDNiNTJlZmQzZjc0NWFiZDIzMjQ3L3NvdXJjZXMvY29uZmxpY3QtYi5qc29ujAdodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vbW9vcmlzaS9mYWN0LXRyaWFkL2FlMDkwZWRlMDYyYzNiMmRhYzZkM2I1MmVmZDNmNzQ1YWJkMjMyNDcvc291cmNlcy9yZWZ1dGUuanNvbh2EBDU0ZGNhZWIwNWM3OWFiZmEyYmYyNzQ2NDVhNzMwMGRmNTU5YmY0OGM2MmI0NzI0MWIzMjAyODA4NTQ4YWM2YjWEBDViYmQ1MGQ5OWNiNGIwZmQzY2M4YmM2NjVmYzY3MDNhYjg0MWNkMzYwOTJlZmUwNDY0NjhhN2VjZWY1ZDYxZTaEBDdlYTQ4OTMxYTRmMGNhOGI2ZWFlYzAxMjhjM2VmMzU3NWZiZjYwNzNkNTQ5NTBjZmMyNDQ1MGNiZGU5MzczMzQGbWV0aG9kNGFzc2Vzcw==",
+        "gas_used": 0,
+        "genvm_result": {
+          "stderr": "/py/libs/genlayer/gl/_internal/storage.py:21: UserWarning: Detected pickling storage class. Reading storage in nondet mode is not supported\n  warnings.warn(\n",
+          "stdout": "",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        },
+        "contract_state": {},
+        "execution_stats": {
+          "llm": {
+            "tokens": {
+              "node-0x3E5ee2507cc167C9925Bf10c67D7986581112024/policy:prd-gemini": {
+                "input": 4027,
+                "total": 5647,
+                "output": 1620
+              }
+            }
+          },
+          "call_counts": {
+            "CONSUME_FUEL": 3,
+            "STORAGE_READ": 60,
+            "NOTIFY_FINISHED": 1,
+            "REMAINING_FUEL_AS_GEN": 3
+          },
+          "host_first_method": "STORAGE_READ",
+          "delete_genvm_status": 200,
+          "host_loop_entered_s": 1416.711144665,
+          "host_loop_enter_wait_ms": 4506,
+          "host_time_per_method_ms": {
+            "CONSUME_FUEL": 0,
+            "STORAGE_READ": 17,
+            "REMAINING_FUEL_AS_GEN": 0
+          },
+          "host_total_handling_time_ms": 17,
+          "manager_run_attempt_success": {
+            "attempt": 0,
+            "duration_ms": 4501
+          },
+          "host_first_method_received_s": 1416.711563355,
+          "host_accept_to_first_method_ms": 0
+        },
+        "nondet_disagree": null,
+        "processing_time": 17619,
+        "execution_result": "SUCCESS",
+        "contract_state_hash": "20712b59914ecc98cd4e779a9e9609df144801c084677446c9c1328dc32b19f5",
+        "pending_transactions": []
+      },
+      {
+        "mode": "validator",
+        "vote": "idle",
+        "result": "AmlkbGU=",
+        "calldata": "",
+        "gas_used": 0,
+        "genvm_result": {
+          "stderr": "Validator execution cancelled after quorum",
+          "stdout": "",
+          "raw_error": {
+            "fatal": false,
+            "causes": [
+              "VALIDATOR_QUORUM_REACHED"
+            ]
+          },
+          "error_code": "CONSENSUS_VALIDATOR_QUORUM_REACHED"
+        },
+        "contract_state": {},
+        "execution_stats": null,
+        "nondet_disagree": null,
+        "processing_time": 0,
+        "execution_result": "ERROR",
+        "contract_state_hash": null,
+        "pending_transactions": []
+      }
+    ],
+    "leader_receipt": [
+      {
+        "mode": "leader",
+        "vote": null,
+        "result": "AAA=",
+        "calldata": "FgRhcmdzFR2sB2h0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9tb29yaXNpL2ZhY3QtdHJpYWQvYWUwOTBlZGUwNjJjM2IyZGFjNmQzYjUyZWZkM2Y3NDVhYmQyMzI0Ny9zb3VyY2VzL2NvbmZsaWN0LWEuanNvbqwHaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL21vb3Jpc2kvZmFjdC10cmlhZC9hZTA5MGVkZTA2MmMzYjJkYWM2ZDNiNTJlZmQzZjc0NWFiZDIzMjQ3L3NvdXJjZXMvY29uZmxpY3QtYi5qc29ujAdodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vbW9vcmlzaS9mYWN0LXRyaWFkL2FlMDkwZWRlMDYyYzNiMmRhYzZkM2I1MmVmZDNmNzQ1YWJkMjMyNDcvc291cmNlcy9yZWZ1dGUuanNvbh2EBDU0ZGNhZWIwNWM3OWFiZmEyYmYyNzQ2NDVhNzMwMGRmNTU5YmY0OGM2MmI0NzI0MWIzMjAyODA4NTQ4YWM2YjWEBDViYmQ1MGQ5OWNiNGIwZmQzY2M4YmM2NjVmYzY3MDNhYjg0MWNkMzYwOTJlZmUwNDY0NjhhN2VjZWY1ZDYxZTaEBDdlYTQ4OTMxYTRmMGNhOGI2ZWFlYzAxMjhjM2VmMzU3NWZiZjYwNzNkNTQ5NTBjZmMyNDQ1MGNiZGU5MzczMzQGbWV0aG9kNGFzc2Vzcw==",
+        "gas_used": 0,
+        "eq_outputs": {
+          "0": "AB0mCGFuYWx5c2lzHgVjbGFpbUxTVVBQT1JURUQIcG9sYXJpdHk0QUNUSVZFBXF1b3RlnARUaGUgc2VydmljZSByZXF1aXJlcyBzaWduZWQgcmVxdWVzdHMgYW5kIHJlamVjdHMgdW5zaWduZWQgcmVxdWVzdHMuBGhhc2iEBDU0ZGNhZWIwNWM3OWFiZmEyYmYyNzQ2NDVhNzMwMGRmNTU5YmY0OGM2MmI0NzI0MWIzMjAyODA4NTQ4YWM2YjUGc291cmNlFgJpZCxTUkMtRgR0ZXh0vAlUaGUgc2VydmljZSByZXF1aXJlcyBzaWduZWQgcmVxdWVzdHMgYW5kIHJlamVjdHMgdW5zaWduZWQgcmVxdWVzdHMuIFRoaXMgc3ludGhldGljIHB1YmxpY2F0aW9uIGlzIHRoZSBmaXJzdCBzdXBwb3J0aW5nIHNvdXJjZSBpbiB0aGUgY29uZmxpY3Qgc2NlbmFyaW8uA3VybKwHaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL21vb3Jpc2kvZmFjdC10cmlhZC9hZTA5MGVkZTA2MmMzYjJkYWM2ZDNiNTJlZmQzZjc0NWFiZDIzMjQ3L3NvdXJjZXMvY29uZmxpY3QtYS5qc29uJghhbmFseXNpcx4FY2xhaW1MU1VQUE9SVEVECHBvbGFyaXR5NEFDVElWRQVxdW90ZZwEVGhlIHNlcnZpY2UgcmVxdWlyZXMgc2lnbmVkIHJlcXVlc3RzIGFuZCByZWplY3RzIHVuc2lnbmVkIHJlcXVlc3RzLgRoYXNohAQ1YmJkNTBkOTljYjRiMGZkM2NjOGJjNjY1ZmM2NzAzYWI4NDFjZDM2MDkyZWZlMDQ2NDY4YTdlY2VmNWQ2MWU2BnNvdXJjZRYCaWQsU1JDLUcEdGV4dMQJVGhlIHNlcnZpY2UgcmVxdWlyZXMgc2lnbmVkIHJlcXVlc3RzIGFuZCByZWplY3RzIHVuc2lnbmVkIHJlcXVlc3RzLiBUaGlzIHN5bnRoZXRpYyBwdWJsaWNhdGlvbiBpcyB0aGUgc2Vjb25kIHN1cHBvcnRpbmcgc291cmNlIGluIHRoZSBjb25mbGljdCBzY2VuYXJpby4DdXJsrAdodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vbW9vcmlzaS9mYWN0LXRyaWFkL2FlMDkwZWRlMDYyYzNiMmRhYzZkM2I1MmVmZDNmNzQ1YWJkMjMyNDcvc291cmNlcy9jb25mbGljdC1iLmpzb24mCGFuYWx5c2lzHgVjbGFpbTxSRUZVVEVECHBvbGFyaXR5NEFDVElWRQVxdW90ZbQEVGhlIHNlcnZpY2UgYWNjZXB0cyB1bnNpZ25lZCByZXF1ZXN0cyBhbmQgZG9lcyBub3QgcmVxdWlyZSBzaWduYXR1cmVzLgRoYXNohAQ3ZWE0ODkzMWE0ZjBjYThiNmVhZWMwMTI4YzNlZjM1NzVmYmY2MDczZDU0OTUwY2ZjMjQ0NTBjYmRlOTM3MzM0BnNvdXJjZRYCaWQsU1JDLUQEdGV4dOwIVGhlIHNlcnZpY2UgYWNjZXB0cyB1bnNpZ25lZCByZXF1ZXN0cyBhbmQgZG9lcyBub3QgcmVxdWlyZSBzaWduYXR1cmVzLiBUaGlzIGZpeHR1cmUgZG9jdW1lbnRzIHRoZSBjb250cmFyeSBwcm9wb3NpdGlvbiBmb3IgY29uc2Vuc3VzIHRlc3RpbmcuA3VybIwHaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL21vb3Jpc2kvZmFjdC10cmlhZC9hZTA5MGVkZTA2MmMzYjJkYWM2ZDNiNTJlZmQzZjc0NWFiZDIzMjQ3L3NvdXJjZXMvcmVmdXRlLmpzb24="
+        },
+        "genvm_result": {
+          "stderr": "/py/libs/genlayer/gl/_internal/storage.py:21: UserWarning: Detected pickling storage class. Reading storage in nondet mode is not supported\n  warnings.warn(\n",
+          "stdout": "",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        },
+        "execution_stats": {
+          "llm": {
+            "tokens": {
+              "node-0x03D58A4DeF6fDFc032A56374785a5F571D07Bc11/google/gemini-3-flash-preview": {
+                "input": 592,
+                "total": 702,
+                "output": 110
+              }
+            }
+          },
+          "call_counts": {
+            "CONSUME_FUEL": 3,
+            "STORAGE_READ": 60,
+            "NOTIFY_FINISHED": 1,
+            "REMAINING_FUEL_AS_GEN": 3
+          },
+          "host_first_method": "STORAGE_READ",
+          "delete_genvm_status": 200,
+          "host_loop_entered_s": 1407.118934503,
+          "host_loop_enter_wait_ms": 5,
+          "host_time_per_method_ms": {
+            "CONSUME_FUEL": 0,
+            "STORAGE_READ": 15,
+            "REMAINING_FUEL_AS_GEN": 0
+          },
+          "host_total_handling_time_ms": 15,
+          "manager_run_attempt_success": {
+            "attempt": 0,
+            "duration_ms": 3
+          },
+          "host_first_method_received_s": 1407.119062046,
+          "host_accept_to_first_method_ms": 0
+        },
+        "nondet_disagree": null,
+        "processing_time": 4828,
+        "execution_result": "SUCCESS",
+        "contract_state_hash": "20712b59914ecc98cd4e779a9e9609df144801c084677446c9c1328dc32b19f5",
+        "pending_transactions": []
+      },
+      {
+        "mode": "validator",
+        "vote": "agree",
+        "result": "AAA=",
+        "calldata": "FgRhcmdzFR2sB2h0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9tb29yaXNpL2ZhY3QtdHJpYWQvYWUwOTBlZGUwNjJjM2IyZGFjNmQzYjUyZWZkM2Y3NDVhYmQyMzI0Ny9zb3VyY2VzL2NvbmZsaWN0LWEuanNvbqwHaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL21vb3Jpc2kvZmFjdC10cmlhZC9hZTA5MGVkZTA2MmMzYjJkYWM2ZDNiNTJlZmQzZjc0NWFiZDIzMjQ3L3NvdXJjZXMvY29uZmxpY3QtYi5qc29ujAdodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vbW9vcmlzaS9mYWN0LXRyaWFkL2FlMDkwZWRlMDYyYzNiMmRhYzZkM2I1MmVmZDNmNzQ1YWJkMjMyNDcvc291cmNlcy9yZWZ1dGUuanNvbh2EBDU0ZGNhZWIwNWM3OWFiZmEyYmYyNzQ2NDVhNzMwMGRmNTU5YmY0OGM2MmI0NzI0MWIzMjAyODA4NTQ4YWM2YjWEBDViYmQ1MGQ5OWNiNGIwZmQzY2M4YmM2NjVmYzY3MDNhYjg0MWNkMzYwOTJlZmUwNDY0NjhhN2VjZWY1ZDYxZTaEBDdlYTQ4OTMxYTRmMGNhOGI2ZWFlYzAxMjhjM2VmMzU3NWZiZjYwNzNkNTQ5NTBjZmMyNDQ1MGNiZGU5MzczMzQGbWV0aG9kNGFzc2Vzcw==",
+        "gas_used": 0,
+        "genvm_result": {
+          "stderr": "/py/libs/genlayer/gl/_internal/storage.py:21: UserWarning: Detected pickling storage class. Reading storage in nondet mode is not supported\n  warnings.warn(\n",
+          "stdout": "",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        },
+        "execution_stats": {
+          "llm": {
+            "tokens": {
+              "node-0x03D58A4DeF6fDFc032A56374785a5F571D07Bc11/google/gemini-3-flash-preview": {
+                "input": 592,
+                "total": 702,
+                "output": 110
+              }
+            }
+          },
+          "call_counts": {
+            "CONSUME_FUEL": 3,
+            "STORAGE_READ": 60,
+            "NOTIFY_FINISHED": 1,
+            "REMAINING_FUEL_AS_GEN": 3
+          },
+          "host_first_method": "STORAGE_READ",
+          "delete_genvm_status": 200,
+          "host_loop_entered_s": 1412.212750802,
+          "host_loop_enter_wait_ms": 11,
+          "host_time_per_method_ms": {
+            "CONSUME_FUEL": 0,
+            "STORAGE_READ": 19,
+            "REMAINING_FUEL_AS_GEN": 0
+          },
+          "host_total_handling_time_ms": 19,
+          "manager_run_attempt_success": {
+            "attempt": 0,
+            "duration_ms": 7
+          },
+          "host_first_method_received_s": 1412.213038748,
+          "host_accept_to_first_method_ms": 0
+        },
+        "nondet_disagree": null,
+        "processing_time": 4623,
+        "execution_result": "SUCCESS",
+        "contract_state_hash": "20712b59914ecc98cd4e779a9e9609df144801c084677446c9c1328dc32b19f5",
+        "pending_transactions": []
+      }
+    ]
+  },
+  "gaslimit": 157,
+  "nonce": 157,
+  "r": null,
+  "s": null,
+  "v": null,
+  "created_at": "2026-10-11T21:27:46.155058+00:00",
+  "leader_only": false,
+  "execution_mode": "NORMAL",
+  "origin_address": "0x7a413BB4AB62E31d62d4cD9efC8C8a8Dae37FB42",
+  "triggered_by": null,
+  "triggered_on": null,
+  "triggered_transactions": [],
+  "appealed": false,
+  "timestamp_awaiting_finalization": 1791754090,
+  "appeal_failed": 0,
+  "appeal_undetermined": false,
+  "consensus_history": {
+    "consensus_results": [
+      {
+        "monitoring": {
+          "PENDING": 1791754068.0456433,
+          "ACCEPTED": 1791754090.9027019,
+          "PROPOSING": 1791754068.059902,
+          "REVEALING": 1791754090.8617601,
+          "COMMITTING": 1791754072.9846137,
+          "PROPOSING.LEADER.RUN_END": 1791754072.9544425,
+          "PROPOSING.LEADER.RUN_START": 1791754068.0898905,
+          "PROPOSING.LEADER.EXEC_START": 1791754068.084824,
+          "PROPOSING.VALIDATORS_SELECTED": 1791754068.0745933,
+          "COMMITTING.VALIDATORS_PREPARED": 1791754072.9977953,
+          "COMMITTING.VALIDATOR_0.RUN_END": 1791754077.700022,
+          "COMMITTING.VALIDATOR_1.RUN_END": 1791754081.3839552,
+          "COMMITTING.VALIDATOR_3.RUN_END": 1791754090.8009229,
+          "PROPOSING.TRANSACTION_EXECUTED": 1791754072.9652154,
+          "COMMITTING.VALIDATOR_0.RUN_START": 1791754073.0395188,
+          "COMMITTING.VALIDATOR_1.RUN_START": 1791754073.0753155,
+          "COMMITTING.VALIDATOR_2.RUN_START": 1791754073.1098235,
+          "COMMITTING.VALIDATOR_3.RUN_START": 1791754073.1445434,
+          "COMMITTING.VALIDATOR_4.RUN_START": 1791754073.1786275,
+          "PROPOSING.LEADER.DECODE_COMPLETE": 1791754068.0947566,
+          "PROPOSING.LEADER.RECEIPT_CREATED": 1791754072.9596,
+          "COMMITTING.VALIDATOR_0.EXEC_START": 1791754073.0344388,
+          "COMMITTING.VALIDATOR_1.EXEC_START": 1791754073.0705516,
+          "COMMITTING.VALIDATOR_2.EXEC_START": 1791754073.1049461,
+          "COMMITTING.VALIDATOR_3.EXEC_START": 1791754073.1394935,
+          "COMMITTING.VALIDATOR_4.EXEC_START": 1791754073.1735961,
+          "COMMITTING.VALIDATORS_EXECUTION_END": 1791754090.8183453,
+          "PROPOSING.LEADER.EXECUTION_FINISHED": 1791754072.9493945,
+          "COMMITTING.VALIDATOR_0_END.attempt_0": 1791754077.711703,
+          "COMMITTING.VALIDATOR_1_END.attempt_0": 1791754081.3952885,
+          "COMMITTING.VALIDATOR_3_END.attempt_0": 1791754090.8122957,
+          "COMMITTING.VALIDATORS_EXECUTION_START": 1791754073.0028336,
+          "COMMITTING.VALIDATION_RESULTS_GATHERED": 1791754090.8233392,
+          "COMMITTING.VALIDATOR_0.DECODE_COMPLETE": 1791754073.0453424,
+          "COMMITTING.VALIDATOR_0.RECEIPT_CREATED": 1791754077.7053018,
+          "COMMITTING.VALIDATOR_0_START.attempt_0": 1791754073.0083241,
+          "COMMITTING.VALIDATOR_1.DECODE_COMPLETE": 1791754073.080382,
+          "COMMITTING.VALIDATOR_1.RECEIPT_CREATED": 1791754081.3891704,
+          "COMMITTING.VALIDATOR_1_START.attempt_0": 1791754073.0137844,
+          "COMMITTING.VALIDATOR_2.DECODE_COMPLETE": 1791754073.1144822,
+          "COMMITTING.VALIDATOR_2_START.attempt_0": 1791754073.0194857,
+          "COMMITTING.VALIDATOR_3.DECODE_COMPLETE": 1791754073.1494045,
+          "COMMITTING.VALIDATOR_3.RECEIPT_CREATED": 1791754090.8062072,
+          "COMMITTING.VALIDATOR_3_START.attempt_0": 1791754073.0246093,
+          "COMMITTING.VALIDATOR_4.DECODE_COMPLETE": 1791754073.1831894,
+          "COMMITTING.VALIDATOR_4_START.attempt_0": 1791754073.029634,
+          "PROPOSING.LEADER.GENVM_EXECUTION_START": 1791754068.1142974,
+          "PROPOSING.LEADER.SNAPSHOT_CREATION_END": 1791754068.10958,
+          "PROPOSING.LEADER_NODE_CREATED.attempt_0": 1791754068.0799153,
+          "PROPOSING.LEADER.GENVM_PREPARATION_START": 1791754068.099868,
+          "PROPOSING.LEADER.SNAPSHOT_CREATION_START": 1791754068.104646,
+          "COMMITTING.VALIDATOR_0.EXECUTION_FINISHED": 1791754077.6945307,
+          "COMMITTING.VALIDATOR_1.EXECUTION_FINISHED": 1791754081.3784926,
+          "COMMITTING.VALIDATOR_3.EXECUTION_FINISHED": 1791754090.793916,
+          "COMMITTING.VALIDATOR_0.GENVM_EXECUTION_START": 1791754073.0650275,
+          "COMMITTING.VALIDATOR_0.SNAPSHOT_CREATION_END": 1791754073.0601244,
+          "COMMITTING.VALIDATOR_1.GENVM_EXECUTION_START": 1791754073.0997896,
+          "COMMITTING.VALIDATOR_1.SNAPSHOT_CREATION_END": 1791754073.0947218,
+          "COMMITTING.VALIDATOR_2.GENVM_EXECUTION_START": 1791754073.134113,
+          "COMMITTING.VALIDATOR_2.SNAPSHOT_CREATION_END": 1791754073.1293724,
+          "COMMITTING.VALIDATOR_3.GENVM_EXECUTION_START": 1791754073.1685865,
+          "COMMITTING.VALIDATOR_3.SNAPSHOT_CREATION_END": 1791754073.163741,
+          "COMMITTING.VALIDATOR_4.GENVM_EXECUTION_START": 1791754073.2023063,
+          "COMMITTING.VALIDATOR_4.SNAPSHOT_CREATION_END": 1791754073.1977642,
+          "COMMITTING.VALIDATOR_0.GENVM_PREPARATION_START": 1791754073.0503025,
+          "COMMITTING.VALIDATOR_0.SNAPSHOT_CREATION_START": 1791754073.0549872,
+          "COMMITTING.VALIDATOR_1.GENVM_PREPARATION_START": 1791754073.0850194,
+          "COMMITTING.VALIDATOR_1.SNAPSHOT_CREATION_START": 1791754073.0900052,
+          "COMMITTING.VALIDATOR_2.GENVM_PREPARATION_START": 1791754073.119433,
+          "COMMITTING.VALIDATOR_2.SNAPSHOT_CREATION_START": 1791754073.1242535,
+          "COMMITTING.VALIDATOR_3.GENVM_PREPARATION_START": 1791754073.154147,
+          "COMMITTING.VALIDATOR_3.SNAPSHOT_CREATION_START": 1791754073.1590846,
+          "COMMITTING.VALIDATOR_4.GENVM_PREPARATION_START": 1791754073.188172,
+          "COMMITTING.VALIDATOR_4.SNAPSHOT_CREATION_START": 1791754073.1928327
+        },
+        "leader_result": [
+          {
+            "mode": "leader",
+            "vote": null,
+            "result": "AAA=",
+            "calldata": "FgRhcmdzFR2sB2h0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9tb29yaXNpL2ZhY3QtdHJpYWQvYWUwOTBlZGUwNjJjM2IyZGFjNmQzYjUyZWZkM2Y3NDVhYmQyMzI0Ny9zb3VyY2VzL2NvbmZsaWN0LWEuanNvbqwHaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL21vb3Jpc2kvZmFjdC10cmlhZC9hZTA5MGVkZTA2MmMzYjJkYWM2ZDNiNTJlZmQzZjc0NWFiZDIzMjQ3L3NvdXJjZXMvY29uZmxpY3QtYi5qc29ujAdodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vbW9vcmlzaS9mYWN0LXRyaWFkL2FlMDkwZWRlMDYyYzNiMmRhYzZkM2I1MmVmZDNmNzQ1YWJkMjMyNDcvc291cmNlcy9yZWZ1dGUuanNvbh2EBDU0ZGNhZWIwNWM3OWFiZmEyYmYyNzQ2NDVhNzMwMGRmNTU5YmY0OGM2MmI0NzI0MWIzMjAyODA4NTQ4YWM2YjWEBDViYmQ1MGQ5OWNiNGIwZmQzY2M4YmM2NjVmYzY3MDNhYjg0MWNkMzYwOTJlZmUwNDY0NjhhN2VjZWY1ZDYxZTaEBDdlYTQ4OTMxYTRmMGNhOGI2ZWFlYzAxMjhjM2VmMzU3NWZiZjYwNzNkNTQ5NTBjZmMyNDQ1MGNiZGU5MzczMzQGbWV0aG9kNGFzc2Vzcw==",
+            "gas_used": 0,
+            "eq_outputs": {
+              "0": "AB0mCGFuYWx5c2lzHgVjbGFpbUxTVVBQT1JURUQIcG9sYXJpdHk0QUNUSVZFBXF1b3RlnARUaGUgc2VydmljZSByZXF1aXJlcyBzaWduZWQgcmVxdWVzdHMgYW5kIHJlamVjdHMgdW5zaWduZWQgcmVxdWVzdHMuBGhhc2iEBDU0ZGNhZWIwNWM3OWFiZmEyYmYyNzQ2NDVhNzMwMGRmNTU5YmY0OGM2MmI0NzI0MWIzMjAyODA4NTQ4YWM2YjUGc291cmNlFgJpZCxTUkMtRgR0ZXh0vAlUaGUgc2VydmljZSByZXF1aXJlcyBzaWduZWQgcmVxdWVzdHMgYW5kIHJlamVjdHMgdW5zaWduZWQgcmVxdWVzdHMuIFRoaXMgc3ludGhldGljIHB1YmxpY2F0aW9uIGlzIHRoZSBmaXJzdCBzdXBwb3J0aW5nIHNvdXJjZSBpbiB0aGUgY29uZmxpY3Qgc2NlbmFyaW8uA3VybKwHaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL21vb3Jpc2kvZmFjdC10cmlhZC9hZTA5MGVkZTA2MmMzYjJkYWM2ZDNiNTJlZmQzZjc0NWFiZDIzMjQ3L3NvdXJjZXMvY29uZmxpY3QtYS5qc29uJghhbmFseXNpcx4FY2xhaW1MU1VQUE9SVEVECHBvbGFyaXR5NEFDVElWRQVxdW90ZZwEVGhlIHNlcnZpY2UgcmVxdWlyZXMgc2lnbmVkIHJlcXVlc3RzIGFuZCByZWplY3RzIHVuc2lnbmVkIHJlcXVlc3RzLgRoYXNohAQ1YmJkNTBkOTljYjRiMGZkM2NjOGJjNjY1ZmM2NzAzYWI4NDFjZDM2MDkyZWZlMDQ2NDY4YTdlY2VmNWQ2MWU2BnNvdXJjZRYCaWQsU1JDLUcEdGV4dMQJVGhlIHNlcnZpY2UgcmVxdWlyZXMgc2lnbmVkIHJlcXVlc3RzIGFuZCByZWplY3RzIHVuc2lnbmVkIHJlcXVlc3RzLiBUaGlzIHN5bnRoZXRpYyBwdWJsaWNhdGlvbiBpcyB0aGUgc2Vjb25kIHN1cHBvcnRpbmcgc291cmNlIGluIHRoZSBjb25mbGljdCBzY2VuYXJpby4DdXJsrAdodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vbW9vcmlzaS9mYWN0LXRyaWFkL2FlMDkwZWRlMDYyYzNiMmRhYzZkM2I1MmVmZDNmNzQ1YWJkMjMyNDcvc291cmNlcy9jb25mbGljdC1iLmpzb24mCGFuYWx5c2lzHgVjbGFpbTxSRUZVVEVECHBvbGFyaXR5NEFDVElWRQVxdW90ZbQEVGhlIHNlcnZpY2UgYWNjZXB0cyB1bnNpZ25lZCByZXF1ZXN0cyBhbmQgZG9lcyBub3QgcmVxdWlyZSBzaWduYXR1cmVzLgRoYXNohAQ3ZWE0ODkzMWE0ZjBjYThiNmVhZWMwMTI4YzNlZjM1NzVmYmY2MDczZDU0OTUwY2ZjMjQ0NTBjYmRlOTM3MzM0BnNvdXJjZRYCaWQsU1JDLUQEdGV4dOwIVGhlIHNlcnZpY2UgYWNjZXB0cyB1bnNpZ25lZCByZXF1ZXN0cyBhbmQgZG9lcyBub3QgcmVxdWlyZSBzaWduYXR1cmVzLiBUaGlzIGZpeHR1cmUgZG9jdW1lbnRzIHRoZSBjb250cmFyeSBwcm9wb3NpdGlvbiBmb3IgY29uc2Vuc3VzIHRlc3RpbmcuA3VybIwHaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL21vb3Jpc2kvZmFjdC10cmlhZC9hZTA5MGVkZTA2MmMzYjJkYWM2ZDNiNTJlZmQzZjc0NWFiZDIzMjQ3L3NvdXJjZXMvcmVmdXRlLmpzb24="
+            },
+            "genvm_result": {
+              "stderr": "/py/libs/genlayer/gl/_internal/storage.py:21: UserWarning: Detected pickling storage class. Reading storage in nondet mode is not supported\n  warnings.warn(\n",
+              "stdout": "",
+              "raw_error": null,
+              "error_code": null,
+              "error_description": null
+            },
+            "contract_state": {},
+            "execution_stats": {
+              "llm": {
+                "tokens": {
+                  "node-0x03D58A4DeF6fDFc032A56374785a5F571D07Bc11/google/gemini-3-flash-preview": {
+                    "input": 592,
+                    "total": 702,
+                    "output": 110
+                  }
+                }
+              },
+              "call_counts": {
+                "CONSUME_FUEL": 3,
+                "STORAGE_READ": 60,
+                "NOTIFY_FINISHED": 1,
+                "REMAINING_FUEL_AS_GEN": 3
+              },
+              "host_first_method": "STORAGE_READ",
+              "delete_genvm_status": 200,
+              "host_loop_entered_s": 1407.118934503,
+              "host_loop_enter_wait_ms": 5,
+              "host_time_per_method_ms": {
+                "CONSUME_FUEL": 0,
+                "STORAGE_READ": 15,
+                "REMAINING_FUEL_AS_GEN": 0
+              },
+              "host_total_handling_time_ms": 15,
+              "manager_run_attempt_success": {
+                "attempt": 0,
+                "duration_ms": 3
+              },
+              "host_first_method_received_s": 1407.119062046,
+              "host_accept_to_first_method_ms": 0
+            },
+            "nondet_disagree": null,
+            "processing_time": 4828,
+            "execution_result": "SUCCESS",
+            "contract_state_hash": "20712b59914ecc98cd4e779a9e9609df144801c084677446c9c1328dc32b19f5",
+            "pending_transactions": []
+          },
+          {
+            "mode": "validator",
+            "vote": "agree",
+            "result": "AAA=",
+            "calldata": "FgRhcmdzFR2sB2h0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9tb29yaXNpL2ZhY3QtdHJpYWQvYWUwOTBlZGUwNjJjM2IyZGFjNmQzYjUyZWZkM2Y3NDVhYmQyMzI0Ny9zb3VyY2VzL2NvbmZsaWN0LWEuanNvbqwHaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL21vb3Jpc2kvZmFjdC10cmlhZC9hZTA5MGVkZTA2MmMzYjJkYWM2ZDNiNTJlZmQzZjc0NWFiZDIzMjQ3L3NvdXJjZXMvY29uZmxpY3QtYi5qc29ujAdodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vbW9vcmlzaS9mYWN0LXRyaWFkL2FlMDkwZWRlMDYyYzNiMmRhYzZkM2I1MmVmZDNmNzQ1YWJkMjMyNDcvc291cmNlcy9yZWZ1dGUuanNvbh2EBDU0ZGNhZWIwNWM3OWFiZmEyYmYyNzQ2NDVhNzMwMGRmNTU5YmY0OGM2MmI0NzI0MWIzMjAyODA4NTQ4YWM2YjWEBDViYmQ1MGQ5OWNiNGIwZmQzY2M4YmM2NjVmYzY3MDNhYjg0MWNkMzYwOTJlZmUwNDY0NjhhN2VjZWY1ZDYxZTaEBDdlYTQ4OTMxYTRmMGNhOGI2ZWFlYzAxMjhjM2VmMzU3NWZiZjYwNzNkNTQ5NTBjZmMyNDQ1MGNiZGU5MzczMzQGbWV0aG9kNGFzc2Vzcw==",
+            "gas_used": 0,
+            "genvm_result": {
+              "stderr": "/py/libs/genlayer/gl/_internal/storage.py:21: UserWarning: Detected pickling storage class. Reading storage in nondet mode is not supported\n  warnings.warn(\n",
+              "stdout": "",
+              "raw_error": null,
+              "error_code": null,
+              "error_description": null
+            },
+            "contract_state": {},
+            "execution_stats": {
+              "llm": {
+                "tokens": {
+                  "node-0x03D58A4DeF6fDFc032A56374785a5F571D07Bc11/google/gemini-3-flash-preview": {
+                    "input": 592,
+                    "total": 702,
+                    "output": 110
+                  }
+                }
+              },
+              "call_counts": {
+                "CONSUME_FUEL": 3,
+                "STORAGE_READ": 60,
+                "NOTIFY_FINISHED": 1,
+                "REMAINING_FUEL_AS_GEN": 3
+              },
+              "host_first_method": "STORAGE_READ",
+              "delete_genvm_status": 200,
+              "host_loop_entered_s": 1412.212750802,
+              "host_loop_enter_wait_ms": 11,
+              "host_time_per_method_ms": {
+                "CONSUME_FUEL": 0,
+                "STORAGE_READ": 19,
+                "REMAINING_FUEL_AS_GEN": 0
+              },
+              "host_total_handling_time_ms": 19,
+              "manager_run_attempt_success": {
+                "attempt": 0,
+                "duration_ms": 7
+              },
+              "host_first_method_received_s": 1412.213038748,
+              "host_accept_to_first_method_ms": 0
+            },
+            "nondet_disagree": null,
+            "processing_time": 4623,
+            "execution_result": "SUCCESS",
+            "contract_state_hash": "20712b59914ecc98cd4e779a9e9609df144801c084677446c9c1328dc32b19f5",
+            "pending_transactions": []
+          }
+        ],
+        "status_changes": [
+          "PENDING",
+          "PROPOSING",
+          "COMMITTING",
+          "REVEALING",
+          "ACCEPTED"
+        ],
+        "consensus_round": "Accepted",
+        "validator_results": [
+          {
+            "mode": "validator",
+            "vote": "agree",
+            "result": "AAA=",
+            "calldata": "FgRhcmdzFR2sB2h0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9tb29yaXNpL2ZhY3QtdHJpYWQvYWUwOTBlZGUwNjJjM2IyZGFjNmQzYjUyZWZkM2Y3NDVhYmQyMzI0Ny9zb3VyY2VzL2NvbmZsaWN0LWEuanNvbqwHaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL21vb3Jpc2kvZmFjdC10cmlhZC9hZTA5MGVkZTA2MmMzYjJkYWM2ZDNiNTJlZmQzZjc0NWFiZDIzMjQ3L3NvdXJjZXMvY29uZmxpY3QtYi5qc29ujAdodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vbW9vcmlzaS9mYWN0LXRyaWFkL2FlMDkwZWRlMDYyYzNiMmRhYzZkM2I1MmVmZDNmNzQ1YWJkMjMyNDcvc291cmNlcy9yZWZ1dGUuanNvbh2EBDU0ZGNhZWIwNWM3OWFiZmEyYmYyNzQ2NDVhNzMwMGRmNTU5YmY0OGM2MmI0NzI0MWIzMjAyODA4NTQ4YWM2YjWEBDViYmQ1MGQ5OWNiNGIwZmQzY2M4YmM2NjVmYzY3MDNhYjg0MWNkMzYwOTJlZmUwNDY0NjhhN2VjZWY1ZDYxZTaEBDdlYTQ4OTMxYTRmMGNhOGI2ZWFlYzAxMjhjM2VmMzU3NWZiZjYwNzNkNTQ5NTBjZmMyNDQ1MGNiZGU5MzczMzQGbWV0aG9kNGFzc2Vzcw==",
+            "gas_used": 0,
+            "genvm_result": {
+              "stderr": "/py/libs/genlayer/gl/_internal/storage.py:21: UserWarning: Detected pickling storage class. Reading storage in nondet mode is not supported\n  warnings.warn(\n",
+              "stdout": "",
+              "raw_error": null,
+              "error_code": null,
+              "error_description": null
+            },
+            "contract_state": {},
+            "execution_stats": {
+              "llm": {
+                "tokens": {
+                  "node-0x4aba638Cf0Cf5249437AaD968fC69dde46ae6BAC/policy:prd-gpt-oss": {
+                    "input": 799,
+                    "total": 1494,
+                    "output": 695
+                  }
+                }
+              },
+              "call_counts": {
+                "CONSUME_FUEL": 3,
+                "STORAGE_READ": 60,
+                "NOTIFY_FINISHED": 1,
+                "REMAINING_FUEL_AS_GEN": 3
+              },
+              "host_first_method": "STORAGE_READ",
+              "delete_genvm_status": 200,
+              "host_loop_entered_s": 1412.21228992,
+              "host_loop_enter_wait_ms": 9,
+              "host_time_per_method_ms": {
+                "CONSUME_FUEL": 0,
+                "STORAGE_READ": 19,
+                "REMAINING_FUEL_AS_GEN": 0
+              },
+              "host_total_handling_time_ms": 19,
+              "manager_run_attempt_success": {
+                "attempt": 0,
+                "duration_ms": 5
+              },
+              "host_first_method_received_s": 1412.212496355,
+              "host_accept_to_first_method_ms": 0
+            },
+            "nondet_disagree": null,
+            "processing_time": 8272,
+            "execution_result": "SUCCESS",
+            "contract_state_hash": "20712b59914ecc98cd4e779a9e9609df144801c084677446c9c1328dc32b19f5",
+            "pending_transactions": []
+          },
+          {
+            "mode": "validator",
+            "vote": "idle",
+            "result": "AmlkbGU=",
+            "calldata": "",
+            "gas_used": 0,
+            "genvm_result": {
+              "stderr": "Validator execution cancelled after quorum",
+              "stdout": "",
+              "raw_error": {
+                "fatal": false,
+                "causes": [
+                  "VALIDATOR_QUORUM_REACHED"
+                ]
+              },
+              "error_code": "CONSENSUS_VALIDATOR_QUORUM_REACHED"
+            },
+            "contract_state": {},
+            "execution_stats": null,
+            "nondet_disagree": null,
+            "processing_time": 0,
+            "execution_result": "ERROR",
+            "contract_state_hash": null,
+            "pending_transactions": []
+          },
+          {
+            "mode": "validator",
+            "vote": "agree",
+            "result": "AAA=",
+            "calldata": "FgRhcmdzFR2sB2h0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9tb29yaXNpL2ZhY3QtdHJpYWQvYWUwOTBlZGUwNjJjM2IyZGFjNmQzYjUyZWZkM2Y3NDVhYmQyMzI0Ny9zb3VyY2VzL2NvbmZsaWN0LWEuanNvbqwHaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL21vb3Jpc2kvZmFjdC10cmlhZC9hZTA5MGVkZTA2MmMzYjJkYWM2ZDNiNTJlZmQzZjc0NWFiZDIzMjQ3L3NvdXJjZXMvY29uZmxpY3QtYi5qc29ujAdodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vbW9vcmlzaS9mYWN0LXRyaWFkL2FlMDkwZWRlMDYyYzNiMmRhYzZkM2I1MmVmZDNmNzQ1YWJkMjMyNDcvc291cmNlcy9yZWZ1dGUuanNvbh2EBDU0ZGNhZWIwNWM3OWFiZmEyYmYyNzQ2NDVhNzMwMGRmNTU5YmY0OGM2MmI0NzI0MWIzMjAyODA4NTQ4YWM2YjWEBDViYmQ1MGQ5OWNiNGIwZmQzY2M4YmM2NjVmYzY3MDNhYjg0MWNkMzYwOTJlZmUwNDY0NjhhN2VjZWY1ZDYxZTaEBDdlYTQ4OTMxYTRmMGNhOGI2ZWFlYzAxMjhjM2VmMzU3NWZiZjYwNzNkNTQ5NTBjZmMyNDQ1MGNiZGU5MzczMzQGbWV0aG9kNGFzc2Vzcw==",
+            "gas_used": 0,
+            "genvm_result": {
+              "stderr": "/py/libs/genlayer/gl/_internal/storage.py:21: UserWarning: Detected pickling storage class. Reading storage in nondet mode is not supported\n  warnings.warn(\n",
+              "stdout": "",
+              "raw_error": null,
+              "error_code": null,
+              "error_description": null
+            },
+            "contract_state": {},
+            "execution_stats": {
+              "llm": {
+                "tokens": {
+                  "node-0x3E5ee2507cc167C9925Bf10c67D7986581112024/policy:prd-gemini": {
+                    "input": 4027,
+                    "total": 5647,
+                    "output": 1620
+                  }
+                }
+              },
+              "call_counts": {
+                "CONSUME_FUEL": 3,
+                "STORAGE_READ": 60,
+                "NOTIFY_FINISHED": 1,
+                "REMAINING_FUEL_AS_GEN": 3
+              },
+              "host_first_method": "STORAGE_READ",
+              "delete_genvm_status": 200,
+              "host_loop_entered_s": 1416.711144665,
+              "host_loop_enter_wait_ms": 4506,
+              "host_time_per_method_ms": {
+                "CONSUME_FUEL": 0,
+                "STORAGE_READ": 17,
+                "REMAINING_FUEL_AS_GEN": 0
+              },
+              "host_total_handling_time_ms": 17,
+              "manager_run_attempt_success": {
+                "attempt": 0,
+                "duration_ms": 4501
+              },
+              "host_first_method_received_s": 1416.711563355,
+              "host_accept_to_first_method_ms": 0
+            },
+            "nondet_disagree": null,
+            "processing_time": 17619,
+            "execution_result": "SUCCESS",
+            "contract_state_hash": "20712b59914ecc98cd4e779a9e9609df144801c084677446c9c1328dc32b19f5",
+            "pending_transactions": []
+          },
+          {
+            "mode": "validator",
+            "vote": "idle",
+            "result": "AmlkbGU=",
+            "calldata": "",
+            "gas_used": 0,
+            "genvm_result": {
+              "stderr": "Validator execution cancelled after quorum",
+              "stdout": "",
+              "raw_error": {
+                "fatal": false,
+                "causes": [
+                  "VALIDATOR_QUORUM_REACHED"
+                ]
+              },
+              "error_code": "CONSENSUS_VALIDATOR_QUORUM_REACHED"
+            },
+            "contract_state": {},
+            "execution_stats": null,
+            "nondet_disagree": null,
+            "processing_time": 0,
+            "execution_result": "ERROR",
+            "contract_state_hash": null,
+            "pending_transactions": []
+          }
+        ]
+      }
+    ],
+    "current_monitoring": {
+      "FINALIZED": 1791754120.3491313,
+      "COMMITTING.VALIDATOR_2.RUN_END": 1791754096.1345248,
+      "COMMITTING.VALIDATOR_4.RUN_END": 1791754114.8954606,
+      "COMMITTING.VALIDATOR_2.RECEIPT_CREATED": 1791754096.139918,
+      "COMMITTING.VALIDATOR_4.RECEIPT_CREATED": 1791754114.901415,
+      "COMMITTING.VALIDATOR_2.EXECUTION_FINISHED": 1791754096.1283383,
+      "COMMITTING.VALIDATOR_4.EXECUTION_FINISHED": 1791754114.8896558
+    },
+    "current_status_changes": [
+      "FINALIZED"
+    ]
+  },
+  "timestamp_appeal": null,
+  "appeal_processing_time": 0,
+  "config_rotation_rounds": 3,
+  "num_of_initial_validators": 5,
+  "last_vote_timestamp": "1791754090",
+  "rotation_count": 0,
+  "appeal_leader_timeout": false,
+  "leader_timeout_validators": [],
+  "appeal_validators_timeout": false,
+  "sim_config": {
+    "signed_rollup_transaction": "0xf9038a819d808307a12094b7278a61aa25c888815afc32ad3cc52ff24fe57580b9032427241a990000000000000000000000007a413bb4ab62e31d62d4cd9efc8c8a8dae37fb42000000000000000000000000a1e9a56fdada66e0a2d7d75a70e38474cbba70700000000000000000000000000000000000000000000000000000000000000005000000000000000000000000000000000000000000000000000000000000000300000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000245f90242b9023e160461726773151dac0768747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f6d6f6f726973692f666163742d74726961642f616530393065646530363263336232646163366433623532656664336637343561626432333234372f736f75726365732f636f6e666c6963742d612e6a736f6eac0768747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f6d6f6f726973692f666163742d74726961642f616530393065646530363263336232646163366433623532656664336637343561626432333234372f736f75726365732f636f6e666c6963742d622e6a736f6e8c0768747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f6d6f6f726973692f666163742d74726961642f616530393065646530363263336232646163366433623532656664336637343561626432333234372f736f75726365732f7265667574652e6a736f6e1d840435346463616562303563373961626661326266323734363435613733303064663535396266343863363262343732343162333230323830383534386163366235840435626264353064393963623462306664336363386263363635666336373033616238343163643336303932656665303436343638613765636566356436316536840437656134383933316134663063613862366561656330313238633365663335373566626636303733643534393530636663323434353063626465393337333334066d6574686f6434617373657373000000000000000000000000000000000000000000000000000000008301e482a0564102f07e361ceabb15502a2f55e68766fe9e69d9d10bf053f500702d5c38d0a03d7c41a950468a76cf880b72d913fb27d44707dd5297ebe7c8bd9db61542d846"
+  },
+  "value_credited": false,
+  "current_timestamp": "1791754123",
+  "sender": "0x7a413BB4AB62E31d62d4cD9efC8C8a8Dae37FB42",
+  "recipient": "0xA1E9a56Fdada66e0a2d7d75A70E38474cBba7070",
+  "tx_slot": "0",
+  "created_timestamp": "1791754066",
+  "random_seed": "0x0000000000000000000000000000000000000000000000000000000000000000",
+  "tx_id": "0xb7b8736b15782deb5f8c3790de035de122b0425e5afae0e949711f60f2edfe17",
+  "read_state_block_range": {
+    "activation_block": "0",
+    "processing_block": "0",
+    "proposal_block": "0"
+  },
+  "activator": "0x03D58A4DeF6fDFc032A56374785a5F571D07Bc11",
+  "last_leader": "0x03D58A4DeF6fDFc032A56374785a5F571D07Bc11",
+  "result_name": "MAJORITY_AGREE",
+  "tx_data": "f90242b9023e160461726773151dac0768747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f6d6f6f726973692f666163742d74726961642f616530393065646530363263336232646163366433623532656664336637343561626432333234372f736f75726365732f636f6e666c6963742d612e6a736f6eac0768747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f6d6f6f726973692f666163742d74726961642f616530393065646530363263336232646163366433623532656664336637343561626432333234372f736f75726365732f636f6e666c6963742d622e6a736f6e8c0768747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f6d6f6f726973692f666163742d74726961642f616530393065646530363263336232646163366433623532656664336637343561626432333234372f736f75726365732f7265667574652e6a736f6e1d840435346463616562303563373961626661326266323734363435613733303064663535396266343863363262343732343162333230323830383534386163366235840435626264353064393963623462306664336363386263363635666336373033616238343163643336303932656665303436343638613765636566356436316536840437656134383933316134663063613862366561656330313238633365663335373566626636303733643534393530636663323434353063626465393337333334066d6574686f643461737365737300",
+  "tx_execution_hash": "0xda6c11698f2d61734986230d5c527480726ab5c9ed5ca2f2224d38bdc7d28f78",
+  "eq_blocks_outputs": "0xcdc6c28000c0c080c5c480c28000",
+  "messages": [],
+  "queue_type": "0",
+  "queue_position": "0",
+  "num_of_rounds": "1",
+  "last_round": {
+    "round": "0",
+    "leader_index": "0",
+    "votes_committed": "5",
+    "votes_revealed": "5",
+    "appeal_bond": "0",
+    "rotations_left": "3",
+    "result": 6,
+    "round_validators": [
+      "0x03D58A4DeF6fDFc032A56374785a5F571D07Bc11",
+      "0x4aba638Cf0Cf5249437AaD968fC69dde46ae6BAC",
+      "0xE6BD8050758CB15fC88387223E31Ae2708B119dC",
+      "0x3E5ee2507cc167C9925Bf10c67D7986581112024",
+      "0xec2Fb79cd12255Eb34886CEd7332f27B98DEe658"
+    ],
+    "validator_votes_hash": [
+      "0xaf8e228712ed401826122e5f88af9428a95f30323c08b824170c6db6dc85046c",
+      "0x844d387ead7d5fa216be660b1746546ba0c5b9baf45ae0ebd0c6c038a8e9ad4c",
+      "0x296da198621c05bf92d17948a07d8caf415a5c578140d7017d71900fca7e88bb",
+      "0xaecd839b78440208497b819fb4bcc64095a0be0ebccbbc1909435ad15af33642",
+      "0xdea4ec57a7be3520cdd270c28cc9b2a020c05ea237bd81632dae14080eaac1b3"
+    ],
+    "validator_votes": [
+      1,
+      1,
+      5,
+      1,
+      5
+    ],
+    "validator_votes_name": [
+      "AGREE",
+      "AGREE",
+      "IDLE",
+      "AGREE",
+      "IDLE"
+    ]
+  },
+  "status_name": "FINALIZED"
+}

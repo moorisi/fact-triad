@@ -4,3 +4,4 @@ node_modules/
 .proof-journal/
 .pytest_cache/
 artifacts/
+proofs/recovered-state.json

@@ -1,0 +1,41 @@
+{
+  "network": "studionet",
+  "chain_id": 61999,
+  "contract": "0xA1E9a56Fdada66e0a2d7d75A70E38474cBba7070",
+  "source_sha256": "04b37620db4300c89b32c9f2469a198db8c768ee15fb6bf9f32cb01ec5284e3d",
+  "exact_source_match": true,
+  "live_receipts_and_state_match": true,
+  "verified_at": "2026-10-11T21:36:14.158Z",
+  "deployment": {
+    "hash": "0x09952b393ccf44c1d2cbfa7845517b34fb308eca2d69d28dc79036cf7769700c",
+    "agree": 3,
+    "disagree": 0,
+    "idle": 2
+  },
+  "scenarios": [
+    {
+      "name": "v2-corroborated",
+      "status": "CORROBORATED",
+      "hash": "0xfac4bd89bfc0e20b7478c16b632661976c0da1d7f0b4cefe9d2837012aa1391b",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2
+    },
+    {
+      "name": "v2-conflict",
+      "status": "CONFLICT",
+      "hash": "0xb7b8736b15782deb5f8c3790de035de122b0425e5afae0e949711f60f2edfe17",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2
+    },
+    {
+      "name": "v2-insufficient",
+      "status": "INSUFFICIENT",
+      "hash": "0x4aa57bb49af64fe4721a1d5246b9f48f350875efc932fdc7736f3592fe39247a",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "network": "studionet",
+  "chain_id": 61999,
+  "contract": "0xA1E9a56Fdada66e0a2d7d75A70E38474cBba7070",
+  "transaction": "0xfac4bd89bfc0e20b7478c16b632661976c0da1d7f0b4cefe9d2837012aa1391b",
+  "expected_status": "CORROBORATED",
+  "observed_status": "CORROBORATED",
+  "inputs": [
+    {
+      "url": "https://raw.githubusercontent.com/moorisi/fact-triad/ae090ede062c3b2dac6d3b52efd3f745abd23247/sources/alpha.json",
+      "sha256": "0b5226d15ff3ec4397ef80bb32932302e002e77ebcbc60bdb604a15429066096"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/moorisi/fact-triad/ae090ede062c3b2dac6d3b52efd3f745abd23247/sources/beta.json",
+      "sha256": "34a6250cb302c3e9e033c6b1ee02b9856499405fbffa26a5da668d59e44437b7"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/moorisi/fact-triad/ae090ede062c3b2dac6d3b52efd3f745abd23247/sources/gamma.json",
+      "sha256": "f06e140363ae47bc76702a1da832da4c310e840075fae236ec12d6b83d51c146"
+    }
+  ],
+  "state_before": null,
+  "state": [
+    {
+      "sources": [
+        {
+          "analysis": {
+            "claim": "SUPPORTED",
+            "polarity": "ACTIVE",
+            "quote": "The service requires signed requests and rejects unsigned requests."
+          },
+          "hash": "0b5226d15ff3ec4397ef80bb32932302e002e77ebcbc60bdb604a15429066096",
+          "source": {
+            "id": "SRC-A",
+            "text": "The service requires signed requests and rejects unsigned requests. This fixture documents the proposition for consensus testing."
+          },
+          "url": "https://raw.githubusercontent.com/moorisi/fact-triad/ae090ede062c3b2dac6d3b52efd3f745abd23247/sources/alpha.json"
+        },
+        {
+          "analysis": {
+            "claim": "SUPPORTED",
+            "polarity": "ACTIVE",
+            "quote": "The service requires signed requests and rejects unsigned requests."
+          },
+          "hash": "34a6250cb302c3e9e033c6b1ee02b9856499405fbffa26a5da668d59e44437b7",
+          "source": {
+            "id": "SRC-B",
+            "text": "The service requires signed requests and rejects unsigned requests. This fixture documents the proposition for consensus testing."
+          },
+          "url": "https://raw.githubusercontent.com/moorisi/fact-triad/ae090ede062c3b2dac6d3b52efd3f745abd23247/sources/beta.json"
+        },
+        {
+          "analysis": {
+            "claim": "SUPPORTED",
+            "polarity": "ACTIVE",
+            "quote": "The service requires signed requests and rejects unsigned requests."
+          },
+          "hash": "f06e140363ae47bc76702a1da832da4c310e840075fae236ec12d6b83d51c146",
+          "source": {
+            "id": "SRC-C",
+            "text": "The service requires signed requests and rejects unsigned requests. This fixture documents the proposition for consensus testing."
+          },
+          "url": "https://raw.githubusercontent.com/moorisi/fact-triad/ae090ede062c3b2dac6d3b52efd3f745abd23247/sources/gamma.json"
+        }
+      ],
+      "status": "CORROBORATED",
+      "topic": "The service requires signed requests and rejects unsigned requests."
+    }
+  ]
+}
