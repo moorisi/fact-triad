@@ -24,7 +24,7 @@ node scripts/verify-proofs.cjs
 
 For the live verifier, install `genlayer` CLI, select `genlayer network set studionet`, and set `GENLAYER_CLI_PATH` to its installed `genlayer/dist/index.js` file. Verification sends read-only RPC/CLI requests. It does not sign transactions. The test suite itself needs no network once dependencies and the pinned direct SDK are cached.
 
-The 45 tests include 27 exhaustive aggregation combinations plus direct state, replay, commitment, quote, identity and validator rejection checks. Web/LLM calls are mocked; tests explicitly invoke the validator callback. Distributed consensus is demonstrated separately by the published StudioNet receipts.
+The 89 tests include all 27 aggregation combinations both as pure-function checks and as full contract calls with explicit validator replay. They also cover malformed committed documents, each source's independent validator acquisition, HTTP failures, the 16-round limit, partial replay, and retry after failure. Web/LLM calls are mocked; distributed consensus is demonstrated separately by the published StudioNet receipts.
 
 ## Interface and limits
 

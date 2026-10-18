@@ -1,4 +1,5 @@
 const fs=require('node:fs'),path=require('node:path'),crypto=require('node:crypto'),cp=require('node:child_process');
+const {decodeReceipt}=require('./receipt-calldata.cjs');
 const repo='fact-triad',root=path.resolve(__dirname,'..');
 if(!['fact-triad','drift-fence'].includes(repo))throw Error('Unknown repository');
 const config=JSON.parse(fs.readFileSync(path.join(root,'proof-config.json')));
@@ -13,7 +14,7 @@ async function rpc(method,params){
     catch(error){if(i===2)throw error;await new Promise(r=>setTimeout(r,5000));}
   }
 }
-async function receipt(name,hash){
+async function receipt(name,hash,expectedCall){
   const r=load(name+'-receipt');
   const live=await rpc('eth_getTransactionByHash',[hash]);
   assert((live.status_name||live.statusName||live.status)==='FINALIZED' && (live.result_name||live.result)==='MAJORITY_AGREE','Live receipt not successful '+name);
@@ -24,7 +25,8 @@ async function receipt(name,hash){
   const votes=Object.values(r.consensus_data.votes),agree=votes.filter(v=>v==='agree').length;
   assert(agree>votes.length/2,'No strict quorum '+name);
   assert(r.to_address.toLowerCase()===config.address.toLowerCase(),'Wrong destination '+name);
-  return {hash,agree,disagree:votes.filter(v=>v==='disagree').length,idle:votes.filter(v=>v==='idle').length};
+  assert(same(await decodeReceipt(live),expectedCall),'Actual transaction calldata mismatch '+name);
+  return {hash,agree,disagree:votes.filter(v=>v==='disagree').length,idle:votes.filter(v=>v==='idle').length,actual_calldata_verified:true};
 }
 async function main(){
   assert(await rpc('eth_chainId',[])==='0xf22f','Wrong chain');
@@ -40,13 +42,14 @@ async function main(){
       const i=output.indexOf('Result:');assert(i>=0,'No state read result');liveState=JSON.parse(output.slice(i+7).trim());break;
     }catch(error){if(attempt===2)throw error;await new Promise(r=>setTimeout(r,5000));}
   }
-  const summary={network:'studionet',chain_id:61999,contract:config.address,source_sha256:digest(remote),exact_source_match:true,live_receipts_and_state_match:true,verified_at:new Date().toISOString(),deployment:await receipt('deployment',config.deploy_tx),scenarios:[]};
+  const summary={network:'studionet',chain_id:61999,contract:config.address,source_sha256:digest(remote),exact_source_match:true,live_receipts_and_state_match:true,verified_at:new Date().toISOString(),deployment:await receipt('deployment',config.deploy_tx,{args:['moorisi/'+repo,config.topic]}),scenarios:[]};
   for(const s of config.scenarios){
     const p=load(s.name),row=p.state[s.index];
     assert(p.contract===config.address && p.observed_status===s.expected,'State metadata mismatch '+s.name);
     assert(p.state.length===s.index+1,'Unexpected append count '+s.name);
     assert(same(liveState.slice(0,s.index+1),p.state),'Live state differs from snapshot '+s.name);
-    const r=await receipt(s.name,p.transaction);
+    const args=repo==='fact-triad'?[p.inputs.map(x=>x.url),p.inputs.map(x=>x.sha256)]:p.inputs.flatMap(x=>[x.url,x.sha256]);
+    const r=await receipt(s.name,p.transaction,{method:config.method,args});
     if(repo==='fact-triad'){
       assert(row.status===s.expected && row.sources.length===3 && row.topic===config.topic,'Wrong fact result '+s.name);
       const expectedStances={'v2-corroborated':['SUPPORTED','SUPPORTED','SUPPORTED'],'v2-conflict':['SUPPORTED','SUPPORTED','REFUTED'],'v2-insufficient':['SUPPORTED','SUPPORTED','UNKNOWN']};
